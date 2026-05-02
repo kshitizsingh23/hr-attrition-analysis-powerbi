@@ -19,7 +19,7 @@ The analysis was performed using **Python (Pandas)** for data cleaning and trans
 
 ## 📂 Project Structure
 ```text
-HR-Analytics-Dashboard/
+hr-attrition-analysis-powerbi/
 │
 ├── data/
 │   ├── hr_data_raw.csv
