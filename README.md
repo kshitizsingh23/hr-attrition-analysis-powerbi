@@ -1,94 +1,63 @@
 📊 HR Analytics Dashboard
-📌 Project Overview
+📌 Overview
 
-This project analyzes employee attrition to uncover patterns and trends that impact workforce stability. Using Python (Pandas) for data cleaning and transformation, the project builds an interactive dashboard to help HR teams make data-driven decisions and improve employee retention.
+This project focuses on analyzing employee attrition patterns using data-driven techniques. The goal is to identify key factors contributing to employee turnover and provide actionable insights for HR teams to improve retention.
 
-🎯 Objective
-Identify key drivers of employee attrition
-Analyze trends across experience levels, departments, job roles, and salary bands
-Provide actionable insights to reduce employee turnover
-🛠️ Tools & Technologies
-Python (Pandas) – Data cleaning, preprocessing, and analysis
-Power BI / Excel – Dashboard creation and visualization
-Data Cleaning Techniques – Handling missing values, type conversion, feature engineering
+The analysis was performed using Python (Pandas) for data cleaning and transformation, and the results were visualized through an interactive dashboard.
+
+🎯 Objectives
+Understand employee attrition trends
+Identify high-risk departments and job roles
+Analyze the impact of experience, salary, and travel on attrition
+Provide insights to support better HR decision-making
+🛠️ Tech Stack
+Python (Pandas) – Data cleaning & preprocessing
+Power BI / Excel (Dashboard Tool) – Data visualization
+Jupyter Notebook – Analysis
 📂 Project Structure
 HR-Analytics-Dashboard/
 │
 ├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
+│   └── hr_data.csv
 │
 ├── notebooks/
 │   └── data_cleaning_analysis.ipynb
 │
 ├── dashboard/
-│   └── hr_dashboard.pbix   (or .xlsx)
+│   └── hr_dashboard.pbix  (or excel file)
 │
 ├── images/
-│   └── dashboard_preview.png
+│   └── dashboard.png
 │
 └── README.md
 📊 Dashboard Preview
 
-(Add your dashboard screenshot in the images folder and update the file name if needed)
+(Add your dashboard screenshot below)
 
 🔍 Key Insights
-📉 Experience Level
-Employees with ~1 year experience show the highest attrition
-Noticeable attrition also in mid-level employees (6–10 years)
-🏢 Departments Affected
-Administration and Sales have the highest attrition
-👨‍💼 Job Roles
-HR and Sales Executive roles are most impacted
-Roles involving frequent travel show higher attrition
-💰 Salary Band
-Employees earning 10+ LPA show the highest attrition within their salary group
-📊 Dashboard Features
-📌 Attrition Overview
-High-level KPIs such as total employees, attrition count, and attrition rate
-📊 Experience-Based Analysis
-Visual breakdown of attrition across different experience ranges
-Helps identify early-stage and mid-career churn patterns
-🏢 Department & Role Insights
-Drill-down analysis by department and job role
-Highlights high-risk roles like HR and Sales Executive
-✈️ Travel Impact Analysis
-Shows correlation between job roles requiring frequent travel and attrition
-💰 Salary Band Analysis
-Attrition comparison across salary groups
-Helps understand retention challenges at higher salary levels
-🎛️ Interactive Filters
-Dynamic filtering by department, role, and experience
-Enables deeper, customized analysis
+📌 Experience-Based Attrition
+Employees with 1 year of experience show the highest attrition
+Significant attrition also observed in the 6–10 years experience group
+📌 Department-Wise Attrition
+Administration and Sales departments are the most affected
+📌 Job Role Impact
+HR and Sales Executive roles have higher attrition
+Roles involving frequent travel show increased employee turnover
+📌 Salary Band Analysis
+Employees in the 10+ LPA salary band show the highest attrition within their category
+📈 Dashboard Features
+Attrition breakdown by department, job role, and experience
+Salary band analysis with attrition comparison
+Filters for dynamic exploration (department, role, etc.)
+Visual KPIs for quick HR insights
+Trend analysis to identify high-risk employee segments
 💡 Business Impact
-Identifies high-risk employee segments such as:
-Early-career employees (~1 year experience)
-Mid-level professionals (6–10 years)
-High-salary employees (10+ LPA)
-Helps HR teams take targeted actions:
-Improve onboarding and engagement strategies for new hires
-Address burnout and career stagnation in mid-level employees
-Re-evaluate expectations and compensation structure for senior employees
-Provides insights to:
-Reduce attrition in travel-heavy roles
-Optimize workforce planning in Sales and Administration departments
-Improve overall employee satisfaction and retention
+Helps HR teams identify high-risk employee groups
+Enables better workforce planning and retention strategies
+Supports decisions on salary structure and job role optimization
+Highlights the impact of frequent travel on employee satisfaction
 🚀 Future Improvements
-Build a predictive attrition model using machine learning
-Perform cohort analysis for employee lifecycle tracking
-Automate data pipeline using cloud tools (AWS / Snowflake / dbt)
-
----
-
-## 👤 Author
-Kshitiz Singh
-
----
-
-## 📬 Contact
-
-- LinkedIn: https://www.linkedin.com/in/kshitiz-singh-317a9420a/
-- Email: kshitizsingh5@gmail.com
-
----
+Add predictive modeling for attrition
+Include employee engagement and performance data
+Automate data pipeline for real-time updates
 
